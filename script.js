@@ -18,7 +18,7 @@ function formatTime(seconds) {
 // we are not using server side scripting now
 
 async function getSongs() {
-    let a = await fetch("http://127.0.0.1:3000/Songs%20collection/");
+    let a = await fetch("https://neel-aditya.github.io/ForDeploy/Songs%20collection/");
     let response = await a.text();
     console.log(response);
     let div = document.createElement("div");
