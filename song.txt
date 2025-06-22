@@ -1,0 +1,18 @@
+21 guns - Green Day.mp3
+Changes - Remix - XXX Tentacion.mp3
+Coldplay - The Scientist.mp3
+Kya Mujhe Pyaar Hai - K.K.mp3
+One More Light (Official Audio) - Linkin Park.mp3
+Perfect - Ed Sheeran.mp3
+Tum Hi Ho - Arijit Singh (from Aashiqui 2).mp3
+{
+  "songs": [
+    "21 guns - Green Day.mp3",
+    "Changes - Remix - XXX Tentacion.mp3",
+    "Coldplay - The Scientist.mp3",
+    "Kya Mujhe Pyaar Hai - K.K.mp3"
+    "One More Light (Official Audio) - Linkin Park.mp3",
+    "Perfect - Ed Sheeran.mp3",
+    "Tum Hi Ho - Arijit Singh (from Aashiqui 2).mp3",
+  ]
+}
