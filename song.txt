@@ -1,0 +1,7 @@
+{
+  "songs": [
+    "21 guns - Green Day.mp3",
+    "Changes - Remix - XXX Tentacion.mp3",
+    "Coldplay - The Scientist.mp3",
+  ]
+}
