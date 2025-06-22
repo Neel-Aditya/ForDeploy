@@ -14,7 +14,7 @@ function formatTime(seconds) {
 // Fetch song list from JSON file
 async function getSongs() {
     try {
-        const res = await fetch("/Songscollection/playlist.json");
+        const res = await fetch("playlist.json");
         const data = await res.json();
         return data.songs || [];
     } catch (err) {
