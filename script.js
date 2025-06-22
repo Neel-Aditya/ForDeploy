@@ -14,7 +14,7 @@ function formatTime(seconds) {
 // Fetch playlist from JSON
 async function getSongs() {
     try {
-        let res = await fetch("/Songs collection/playlist.json");
+        let res = await fetch("/Songscollection/playlist.json");
         let data = await res.json();
         return data.songs;
     } catch (err) {
@@ -25,7 +25,7 @@ async function getSongs() {
 
 // Play selected song
 function playMusic(track, pause = false) {
-    currentSong.src = `/Songs collection/${encodeURI(track)}`;
+    currentSong.src = `/Songscollection/${encodeURI(track)}`;
 
     if (!pause) {
         currentSong.play();
